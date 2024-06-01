@@ -14,7 +14,7 @@ export default function App() {
       </a>
       and
       <a
-        href="https://comfy-otter-077cbe.netlify.app/"
+        href="https://dapper-daffodil-b9c33a.netlify.app/"
         rel="noreferrer"
         target="_blank"
       >
