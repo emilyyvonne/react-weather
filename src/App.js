@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <footer>
+      This project was coded by Emily Brisbin, is
+      <a href="https://github.com/emilyyvonne/weatherAppFlex" target="_blank">
+        {" "}
+        open-sourced on GitHub{" "}
+      </a>
+      and
+      <a href="https://comfy-otter-077cbe.netlify.app/" target="_blank">
+        {" "}
+        hosted on Netlify
+      </a>
+    </footer>
   );
 }
-
-export default App;
