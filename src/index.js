@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
+
 import Weather from "./Weather";
-import Search from "./Search";
+
 import Forecast from "./Forecast";
 import reportWebVitals from "./reportWebVitals";
 
@@ -12,7 +13,6 @@ root.render(
     <div className="weather-app">
       <div className="container">
         <main>
-          <Search />
           <Weather />
           <Forecast />
         </main>

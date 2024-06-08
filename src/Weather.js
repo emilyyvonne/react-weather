@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 import "./styles.css";
 
 export default function Weather() {
@@ -13,6 +14,16 @@ export default function Weather() {
   };
   return (
     <div className="weather-app-data">
+      <header>
+        <form className="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            className="search-form-input"
+          />
+          <input type="submit" value="Search" className="search-form-button" />
+        </form>
+      </header>
       <div className="weather-app-now">
         <h1 className="weather-app-city">{weatherData.city}</h1>
         <p className="weather-app-details">
