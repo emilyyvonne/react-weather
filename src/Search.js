@@ -7,7 +7,7 @@ export default function Search() {
       <form className="search-form">
         <input
           type="search"
-          placeholder="Enter a city"
+          placeholder="Enter a city testing"
           className="search-form-input"
         />
         <input type="submit" value="Search" className="search-form-button" />

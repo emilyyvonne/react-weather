@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
-import App from "./App";
 import Weather from "./Weather";
 import Search from "./Search";
 import Forecast from "./Forecast";
@@ -12,10 +11,31 @@ root.render(
   <React.StrictMode>
     <div className="weather-app">
       <div className="container">
-        <Search />
-        <Weather />
-        <Forecast />
-        <App />
+        <main>
+          <Search />
+          <Weather />
+          <Forecast />
+        </main>
+        <footer>
+          This project was coded by Emily Brisbin, is
+          <a
+            href="https://github.com/emilyyvonne/weatherAppFlex"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {" "}
+            open-sourced on GitHub{" "}
+          </a>
+          and
+          <a
+            href="https://dapper-daffodil-b9c33a.netlify.app/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {" "}
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   </React.StrictMode>
